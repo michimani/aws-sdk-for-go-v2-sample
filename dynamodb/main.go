@@ -146,8 +146,6 @@ func putItem(client *dynamodb.Client, tableName string, item SmapleItem) error {
 		return err
 	}
 
-	fmt.Println(item.Name)
-
 	return nil
 }
 

@@ -32,11 +32,6 @@ EventMessage:   "This is a sample log event message."
 
 ```bash
 $ go run dynamodb/main.go
-Sample Item 1
-Sample Item 2
-Sample Item 3
-Sample Item 4
-Sample Item 5
 TableName: sdk-for-go-sample-table
 Scan with all attributes:
 [
